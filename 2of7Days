@@ -1,0 +1,8 @@
+const Nome = prompt("Qual o seu nome?");
+const Anos = prompt("Quantos anos você tem?");
+const DevLinguage = prompt("Qual linguagem você está estudando?");
+const like = prompt("Você gosta de estudar "+DevLinguage+"? (responda com 1 para SIM ou 2 para NÃO) ");
+
+if (like != 1 && like != 2) {
+    alert("Resposta invalida, responda apenas com 1 (sim) ou 2 (não)");
+}
