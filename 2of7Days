@@ -1,8 +1,30 @@
 const Nome = prompt("Qual o seu nome?");
 const Anos = prompt("Quantos anos você tem?");
 const DevLinguage = prompt("Qual linguagem você está estudando?");
-const like = prompt("Você gosta de estudar "+DevLinguage+"? (responda com 1 para SIM ou 2 para NÃO) ");
-
-if (like != 1 && like != 2) {
+const like = prompt( Nome+" gosta de estudar "+DevLinguage+"? (responda com 1 para SIM ou 2 para NÃO) ");
+let Resposta;
+while(like != 1 && like != 2){
     alert("Resposta invalida, responda apenas com 1 (sim) ou 2 (não)");
+    const like = prompt("Você gosta de estudar "+DevLinguage+"? (responda com 1 para SIM ou 2 para NÃO) ");
 }
+if(like == 1 ){
+    alert("Muito bom "+Nome+"! Continue estudando "+DevLinguage+" e você terá muito sucesso.");
+    Resposta = 'Estou estudando '+DevLinguage+' e estou gostando';
+    exiberespostas(Resposta)
+}
+if(like == 2 ){
+    alert("Ahh que pena... Já tentou aprender outras linguagens?");
+    Resposta = 'Estou estudando '+DevLinguage+' e não estou gostando';
+    exiberespostas(Resposta)
+}
+
+function exiberespostas(Resposta){
+    document.getElementById("Nome").innerHTML       =   '<p> Meu nome é '+Nome+'</p>';
+    document.getElementById("Idade").innerHTML      =   '<p>Tenho '+Anos+'</p>';
+    document.getElementById("Linguagem").innerHTML  =   '<p>Estou estudando '+DevLinguage+'</p>';
+    document.getElementById("Resposta").innerHTML   =   '<p>'+Resposta+'</p>';
+}
+
+
+
+
