@@ -2,13 +2,26 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
+    margin-top: 0;
 }
 
-.flex-container > a{
+h1{
+    background-color: DodgerBlue;
+    color: #F8F8F8;
+    font-family: helvetica;
+    margin: 0;
+    text-align: center;
+    line-height: 2rem;
+    vertical-align: center;
+}
+
+.flex-container > button{
     background-color: #F8F8F8;
     width: 100%;
     margin: 10px;
     text-align: center;
+    cursor: pointer;
+    border: none;
     line-height: 1rem;
     font-size: 30px;
     overflow: hidden;
@@ -22,7 +35,8 @@
 }
 .flex-container > div{
     width: 100%;
-    margin: 10px;
     justify-content: center;
     align-items: center;
 }
+
+
