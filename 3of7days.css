@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
-    margin-top: 0;
 }
 
 h1{
@@ -11,7 +10,7 @@ h1{
     font-family: helvetica;
     margin: 0;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
     vertical-align: center;
 }
 
@@ -23,20 +22,26 @@ h1{
     cursor: pointer;
     border: none;
     line-height: 1rem;
+    border-radius: 2rem;
     font-size: 30px;
     overflow: hidden;
     justify-content: center;
     align-items: center;
 }
 .flex-container > img{
-    width: 100%;
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
     justify-content: center;
     align-items: center;
 }
 .flex-container > div{
     width: 100%;
+    height: auto;
     justify-content: center;
     align-items: center;
+    border-radius: 2rem;
 }
 
 

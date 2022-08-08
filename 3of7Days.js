@@ -3,8 +3,8 @@ var firstStep = '';
 let front = '<br><a href="http://www.google.com"><div id="Front"><img src="https://www.kindpng.com/picc/m/299-2994011_front-end-development-logos-hd-png-download.png">Front - end</div></a>'
 '<a href="http://www.google.com"><div id="Back"><img src="https://img.freepik.com/premium-vector/back-end-word-concepts-banner-database-programming-web-applications-development-presentation-website-isolated-lettering-typography-idea-with-linear-icons-vector-outline-illustration_106317-8775.jpg?w=740"></div></a>';
 
-let back = '<br><p>PUTS</p><br><a href="http://www.google.com"><div id="Front"><img src="https://www.kindpng.com/picc/m/299-2994011_front-end-development-logos-hd-png-download.png">Front - end</div></a>'
-'<a href="http://www.google.com"><div id="Back"><img src="https://img.freepik.com/premium-vector/back-end-word-concepts-banner-database-programming-web-applications-development-presentation-website-isolated-lettering-typography-idea-with-linear-icons-vector-outline-illustration_106317-8775.jpg?w=740"></div></a>';
+let back = `<h1>Que incrivel, Back-end é show!</h1><h1>Dentro do Back-end entre essas duas linguagens, qual você escolheria?</h1><section class="flex-container"><button value="front" onclick="BackTwoStep()"id="Front"><div><img src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"></div></button>
+<button href="http://www.google.com"><div id="Back"><img src="https://img.freepik.com/premium-vector/back-end-word-concepts-banner-database-programming-web-applications-development-presentation-website-isolated-lettering-typography-idea-with-linear-icons-vector-outline-illustration_106317-8775.jpg?w=740"></div></button></section>`;
 
 
 function frontStep() {
