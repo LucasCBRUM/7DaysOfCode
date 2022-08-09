@@ -18,6 +18,8 @@ h1{
     background-color: #F8F8F8;
     width: 100%;
     margin: 10px;
+    max-height: 40rem;
+    max-width: 43rem;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -30,6 +32,8 @@ h1{
 }
 .flex-container > img{
     width: 50%;
+    max-height: 40rem;
+    max-width: 43rem;
     height: auto;
     margin-left: 0;
     margin-right: 0;
@@ -37,8 +41,10 @@ h1{
     align-items: center;
 }
 .flex-container > div{
-    width: 100%;
-    height: auto;
+    width: 30rem;
+    height: auto;    
+    max-height: 40rem;
+    max-width: 43rem;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
